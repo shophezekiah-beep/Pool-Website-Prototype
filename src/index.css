@@ -27,6 +27,7 @@ button { cursor: pointer; }
 .before-after { touch-action: pan-y; }
 .before-after:focus-within { outline: 3px solid #0891b2; outline-offset: 2px; }
 .slider-range:focus-visible { opacity: 1; accent-color: #0e7490; }
+.portfolio-placeholder { background: linear-gradient(135deg, #e2e8f0, #cbd5e1 45%, #ecfeff); color: #334155; }
 .hero-copy .review-card { font-size: 14px; }
 @media (max-width: 639px) {
   body { padding-bottom: calc(72px + env(safe-area-inset-bottom)); }
